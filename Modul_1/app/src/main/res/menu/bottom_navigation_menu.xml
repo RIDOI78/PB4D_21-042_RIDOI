@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ItemHome"
+        android:icon="@drawable/home_500px"
+        android:title="Home" />
+    <item
+        android:id="@+id/ItemIG"
+        android:icon="@drawable/instagram_500px"
+        android:title="Instagram" />
+    <item
+        android:id="@+id/ItemTwitter"
+        android:icon="@drawable/twitter_208px"
+        android:title="Twitter" />
+    <item
+        android:id="@+id/ItemFacebook"
+        android:icon="@drawable/facebook_208px"
+        android:title="Facebook" />
+</menu>
