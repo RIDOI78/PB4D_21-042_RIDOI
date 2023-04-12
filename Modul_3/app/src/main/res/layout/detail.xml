@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".DetailFirshop">
+
+    <TextView
+        android:id="@+id/jdl_firshop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="530dp"
+        android:text="Firshop Purple"
+        android:textColor="@color/white"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/isi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="502dp"
+        android:text="Firshop Purple merupakan online shope dan markerplate yang bergerak pada bidang jasa dan menyediakan barang unik dan custom. Pada bidang jasa firshope menyediakan jasa editing polaroid, banner, foto, brosur, card, dan stiker sesui dengan kebutuhan customer. Produk utama yang ada pada Firshop Purple ada polaroid. Tidak hanya itu Firshop Purple juga menyediakan cetak polaroid, banner, foto, brosur, card, dan stiker dengan berbagai ukuran, untuk desainnya dapat custom maupun dengan tamplate yang telah kami sediakan. Firshop Purple memiliki jangkauan pasar dari semua kalangan sehingga harga yang ditawarkan juga terjangkau. Meskipun dengan harga terjangkau Firshop Purple juga mengedepankan kualitasnya, dengan mempercayakan produknya melalui supplier terpecaya."
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jdl_firshop"
+        app:layout_constraintVertical_bias="0.178" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
